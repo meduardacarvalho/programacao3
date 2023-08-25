@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class atv1 {
+public class questao01lista05 {
      public static void main(String[] args) {
         double [] aluno = new double[5];
         Scanner sc = new Scanner(System.in);
