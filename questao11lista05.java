@@ -3,10 +3,13 @@ import java.util.Scanner;
 public class questao11lista05 {
     public static void main(String[] args) {
      Scanner sc = new Scanner(System.in);
-     int num, maior = Integer.MAX_VALUE, menor = Integer.MIN_VALUE;
-     System.out.println("Digite uma sequência de números inteiros: ");
+     int num, maior = 0, menor = 0;
+     System.out.println("Digite uma sequência de números inteiros, zero para parar: ");
      num = sc.nextInt();
+     maior = num;
+     menor = num;
      while (num != 0) {
+   
         if (num > maior) {
             maior = num;
         }
@@ -14,6 +17,8 @@ public class questao11lista05 {
         if (num < menor) {
             menor = num;
         }
+         System.out.println("Digite uma sequência de números inteiros: ");
+          num = sc.nextInt();
         
     }
     

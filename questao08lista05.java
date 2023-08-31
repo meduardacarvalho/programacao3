@@ -10,5 +10,23 @@ public class questao08lista05 {
          }
   System.out.println("soma é de: " + soma);
          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
     }
 }
